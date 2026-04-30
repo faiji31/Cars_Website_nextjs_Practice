@@ -1,0 +1,18 @@
+{
+    "status": 200,
+    "details": {
+        "id": 1003,
+        "title": "Tesla Model 3",
+        "catId": 2,
+        "carImg": "https://example.com/images/model3.jpg",
+        "price": 42000,
+        "video": "https://www.youtube.com/watch?v=t0d0u5uYw1M",
+        "category": "Electric",
+        "brand": "Tesla",
+        "fuel": "Electric",
+        "transmission": "Automatic",
+        "topSpeed": "261 km/h"
+    },
+    "message": "Data Served successfully",
+    "send_at": "2026-04-30T06:16:18.102Z"
+}

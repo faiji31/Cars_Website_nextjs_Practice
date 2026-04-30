@@ -1,0 +1,88 @@
+{
+    "status": 200,
+    "cars": [
+        {
+            "id": 1001,
+            "title": "Toyota Corolla 2022",
+            "catId": 1,
+            "carImg": "https://example.com/images/corolla.jpg",
+            "price": 22000,
+            "category": "Sedan"
+        },
+        {
+            "id": 1002,
+            "title": "Honda Civic 2023",
+            "catId": 1,
+            "carImg": "https://example.com/images/civic.jpg",
+            "price": 25000,
+            "category": "Sedan"
+        },
+        {
+            "id": 1003,
+            "title": "Tesla Model 3",
+            "catId": 2,
+            "carImg": "https://example.com/images/model3.jpg",
+            "price": 42000,
+            "category": "Electric"
+        },
+        {
+            "id": 1004,
+            "title": "Ford Mustang GT",
+            "catId": 3,
+            "carImg": "https://example.com/images/mustang.jpg",
+            "price": 55000,
+            "category": "Sports"
+        },
+        {
+            "id": 1005,
+            "title": "BMW X5",
+            "catId": 4,
+            "carImg": "https://example.com/images/bmwx5.jpg",
+            "price": 61000,
+            "category": "SUV"
+        },
+        {
+            "id": 1006,
+            "title": "Audi A6",
+            "catId": 1,
+            "carImg": "https://example.com/images/audi-a6.jpg",
+            "price": 58000,
+            "category": "Sedan"
+        },
+        {
+            "id": 1007,
+            "title": "Hyundai Tucson",
+            "catId": 4,
+            "carImg": "https://example.com/images/tucson.jpg",
+            "price": 30000,
+            "category": "SUV"
+        },
+        {
+            "id": 1008,
+            "title": "Kia Sportage",
+            "catId": 4,
+            "carImg": "https://example.com/images/sportage.jpg",
+            "price": 29000,
+            "category": "SUV"
+        },
+        {
+            "id": 1009,
+            "title": "Chevrolet Camaro",
+            "catId": 3,
+            "carImg": "https://example.com/images/camaro.jpg",
+            "price": 48000,
+            "category": "Sports"
+        },
+        {
+            "id": 1010,
+            "title": "Nissan Leaf",
+            "catId": 2,
+            "carImg": "https://example.com/images/leaf.jpg",
+            "price": 27000,
+            "category": "Electric"
+        }
+    ],
+    "length": 10,
+    "message": "Data Served successfully",
+    "send_at": "2026-04-30T06:15:28.767Z"
+}

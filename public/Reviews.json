@@ -1,0 +1,48 @@
+{
+    "status": 200,
+    "reviews": [
+        {
+            "id": 1,
+            "carId": 1003,
+            "author": "Rahim Ahmed",
+            "rating": 5,
+            "review": "Amazing performance and smooth driving experience. Totally worth the price!",
+            "date": "2026-04-29"
+        },
+        {
+            "id": 2,
+            "carId": 1003,
+            "author": "Nusrat Jahan",
+            "rating": 4,
+            "review": "Very comfortable and stylish, but a bit expensive for my budget.",
+            "date": "2026-04-28"
+        },
+        {
+            "id": 3,
+            "carId": 1005,
+            "author": "Sakib Hasan",
+            "rating": 5,
+            "review": "BMW X5 is powerful and luxurious. Best SUV I’ve driven so far!",
+            "date": "2026-04-27"
+        },
+        {
+            "id": 4,
+            "carId": 1002,
+            "author": "Tanvir Hossain",
+            "rating": 4,
+            "review": "Honda Civic is reliable and fuel-efficient. Great for daily use.",
+            "date": "2026-04-26"
+        },
+        {
+            "id": 5,
+            "carId": 1001,
+            "author": "Ayesha Rahman",
+            "rating": 3,
+            "review": "Good car but lacks some modern features compared to competitors.",
+            "date": "2026-04-25"
+        }
+    ],
+    "length": 5,
+    "message": "Data Served successfully",
+    "send_at": "2026-04-30T06:20:00.000Z"
+}
