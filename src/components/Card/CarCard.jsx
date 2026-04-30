@@ -1,6 +1,7 @@
 import Image from "next/image";
+import Link from "next/link";
 
-const CarCard = ({ car }) => {
+const CarCard = ({ car,id }) => {
     return (
         <div className="bg-white rounded-2xl shadow-md overflow-hidden hover:shadow-xl transition duration-300">
 
@@ -23,9 +24,9 @@ const CarCard = ({ car }) => {
                         ${car.price}
                     </span>
 
-                    <button className="bg-black text-white px-3 py-1 rounded-lg text-sm hover:bg-gray-800">
+                    <Link href={`/cars/${car.id}`} className="bg-black text-white px-3 py-1 rounded-lg text-sm hover:bg-gray-800">
                         Details
-                    </button>
+                    </Link>
                     <button className="bg-black text-white px-3 py-1 rounded-lg text-sm hover:bg-gray-800">
                         Add to Cart
                     </button>
