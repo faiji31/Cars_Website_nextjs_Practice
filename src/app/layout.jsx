@@ -1,5 +1,6 @@
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
+import Link from "next/link";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -26,15 +27,19 @@ export default function RootLayout({ children }) {
 
       <body className="min-h-full flex flex-col">
          <header className="px-4 py-3 bg-green-950 justify-between items-center border-2 flex gap-5">
-          <img className="w-[60px]" src="/logo.jpg" alt="" />
+          <Link href="/"> <img className="w-[60px]" src="/logo.jpg" alt="" /></Link>
 
          <div className="flex gap-5">
-            <button className="bg-amber-400 text-white px-4 py-2 rounded-md hover:bg-blue-700 cursor-pointer duration-200">
-              Cars
-            </button>
-            <button className="bg-amber-400 text-white px-4 py-2 rounded-md hover:bg-blue-700 cursor-pointer duration-200">
-              Review
-            </button>
+            <Link href="/cars">
+              <button className="bg-amber-400 text-white px-4 py-2 rounded-md hover:bg-blue-700 cursor-pointer duration-200">
+                Cars
+              </button>
+            </Link>
+            <Link href="/reviews">
+              <button className="bg-amber-400 text-white px-4 py-2 rounded-md hover:bg-blue-700 cursor-pointer duration-200">
+                Review
+              </button>
+            </Link>
 
          </div>
          </header>
